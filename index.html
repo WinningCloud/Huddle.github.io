@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+  
+  <title>Huddle</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: hsl(257, 40%, 49%);
+      background-image: url(/images/bg-desktop.svg);
+      background-size: cover;
+    }
+    header img{
+      height: 100px;
+      margin: 60px;
+      margin-bottom: 0;
+    }
+    main{
+   
+      color: white;
+      display: flex;
+      align-items: flex-start;
+      
+    }
+    .main-image{
+      margin: 70px;
+    }
+    main span{
+      display: inline-block;
+      width: 680px;
+    
+    }
+    h1{
+      line-height: 60px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 50px;
+      font-weight: 900;
+    }
+    h2{
+      line-height: 40px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 19px;
+      font-weight: 10;
+      
+    }
+    .register{
+      margin-top: 30px;
+      
+      color: hsl(257, 40%, 49%);
+      font-size: 21px;
+      border: none;
+      height: 70px;
+      width: 210px;
+      border-radius: 50px;
+      font-family: 'Poppins', sans-serif;
+    }
+    @keyframes button-color {
+      0%{
+        background-color: white;
+      }
+      100%{
+        color: white;
+        background-color: hsl(300, 69%, 71%);
+      }
+    }
+    .register:hover{
+      animation: button-color 0.2s;
+      animation-fill-mode: forwards;
+    }
+    
+  </style>
+
+</head>
+<body>
+<header>
+  <img src="/images/logo.svg" alt="">
+</header>
+
+<main>
+  <img src="/images/illustration-mockups.svg" alt="" class="main-image">
+  <span>
+    <h1>
+      Build The Community Your Fans Will Love
+    </h1>
+    <br><br>
+    <h2>
+      Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+  Create connections with your users as you engage in genuine discussion.
+    </h2>
+    <input type="submit" class="register" value="Register">
+  </span>
+</main>
+
+
+  
+</body>
+</html>
